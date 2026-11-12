@@ -41,20 +41,20 @@ Optional but recommended for Task 01: install [Claude in Chrome](https://claude.
 ### Claude Code (recommended)
 
 ```
-/plugin marketplace add greentechgear/citation-labs-os-skill
+/plugin marketplace add citationlabs-hq/citation-labs-os-skill
 /plugin install citation-labs-os@citation-labs-os
 ```
 
 Or copy the skill folder in by hand:
 
 ```bash
-git clone https://github.com/greentechgear/citation-labs-os-skill
+git clone https://github.com/citationlabs-hq/citation-labs-os-skill
 cp -r citation-labs-os-skill/skills/citation-labs-os ~/.claude/skills/
 ```
 
 ### Claude.ai and Claude Desktop
 
-Download `citation-labs-os.zip` from the [latest release](https://github.com/greentechgear/citation-labs-os-skill/releases/latest), then go to **Settings → Capabilities → Skills → Upload skill** and choose the zip. (Code execution must be enabled for skills.)
+Download `citation-labs-os.zip` from the [latest release](https://github.com/citationlabs-hq/citation-labs-os-skill/releases/latest), then go to **Settings → Capabilities → Skills → Upload skill** and choose the zip. (Code execution must be enabled for skills.)
 
 ### Other agents
 
